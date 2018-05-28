@@ -1,10 +1,10 @@
 ---
-title: "Le Mans University"
+title: "Introduction to Unix shell"
 collection: teaching
 type: "course"
 permalink: /teaching/le_mans_teaching
 venue: "Le Mans University, Computer Science Department"
-date: Sept 2010 - now
+date: 2012-now
 location: "Le Mans, France"
 ---
 
