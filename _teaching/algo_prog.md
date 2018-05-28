@@ -8,9 +8,6 @@ venue: "Le Mans University, Computer Science Department"
 location: "Le Mans, France"
 ---
 
-Algorithmic and programming
-=====
-
 * 2010-2015 (55 hours)
 * BSc level (L2)
 * Data structures (linked list, hashtable, tree), pointers, recursivity

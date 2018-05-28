@@ -8,8 +8,6 @@ venue: "Le Mans University, Computer Science Department"
 location: "Le Mans, France"
 ---
 
-Project: programming in C
-=====
 * 2010-2015 (36 hours)
 * BSc level (L2)
 * Program a game in C, manage source code, manage project in a group (tasks, planning, etc.)

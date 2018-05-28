@@ -8,8 +8,6 @@ venue: "Le Mans University, Computer Science Department"
 location: "Le Mans, France"
 ---
 
-Machine Translation
-=====
 * 2011- (24 hours)
 * MSc level (M2)
 * Intro, phrase-based MT systems, neural MT, adaptation

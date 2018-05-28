@@ -8,8 +8,6 @@ venue: "Le Mans University, Computer Science Department"
 location: "Le Mans, France"
 ---
 
-Introduction to Programming (in C)
-=====
 * 2010-2012 (55 hours)
 * BSc level (L1)
 * Algorithmics, variables, loops, functions

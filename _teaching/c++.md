@@ -8,8 +8,6 @@ venue: "Le Mans University, Computer Science Department"
 location: "Le Mans, France"
 ---
 
-C++ programming
-=====
 * 2013-2014 (47 hours)
 * MSc level (M1)
 * Classes, inheritance, genericity, Standard Template Library

@@ -8,7 +8,5 @@ venue: "Le Mans University, Computer Science Department"
 location: "Le Mans, France"
 ---
 
-Introduction to unix shell
-=====
  * 2012- (27 hours), BSc level (L1)
  * bash shell commands, scripts, sed, awk

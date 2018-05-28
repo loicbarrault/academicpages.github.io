@@ -8,8 +8,6 @@ venue: "Le Mans University, Computer Science Department"
 location: "Le Mans, France"
 ---
 
-Machine Learning
-=====
 * 2011- (40 hours)
 * MSc level (M1)
 * Naive Bayes, SVM, perceptron, MLP
