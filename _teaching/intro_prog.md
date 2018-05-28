@@ -4,7 +4,7 @@ collection: teaching
 type: "BSc level (L1)"
 permalink: /teaching/intro_prog
 venue: "Le Mans University, Computer Science Department"
-date: 2010-2012
+#date: 2010-2012
 location: "Le Mans, France"
 ---
 

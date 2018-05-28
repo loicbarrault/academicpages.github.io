@@ -4,7 +4,7 @@ collection: teaching
 type: "course"
 permalink: /teaching/le_mans_teaching
 venue: "Le Mans University, Computer Science Department"
-date: 2012-now
+#date: 2012-now
 location: "Le Mans, France"
 ---
 

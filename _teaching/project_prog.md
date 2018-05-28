@@ -4,7 +4,7 @@ collection: teaching
 type: "BSc level (L2) course"
 permalink: /teaching/project_prog
 venue: "Le Mans University, Computer Science Department"
-date: 2010-now
+#date: 2010-now
 location: "Le Mans, France"
 ---
 
