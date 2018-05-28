@@ -8,5 +8,4 @@ collection: portfolio
 * Partners: LIUM (France), MILA (Canada), CVC-LAMP (Spain)
 * [M2CR website](http://m2cr.univ-lemans.fr)
 
-
 <!-- @@papers_project(M2CR) -->
