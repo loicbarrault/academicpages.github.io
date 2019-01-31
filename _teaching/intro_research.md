@@ -1,5 +1,5 @@
 ---
-title: "Research Awareness (applied to machine translation)"
+title: "Introduction to research (applied to machine translation)"
 collection: teaching
 type: "Master 1 course"
 permalink: /teaching/intro_research
