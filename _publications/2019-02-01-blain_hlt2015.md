@@ -1,0 +1,9 @@
+---
+title: "Continuous Adaptation to User Feedback for Statistical Machine Translation"
+collection: Blain, F. and  Bougares, F. and  Hazem, A. and  Barrault, L. and  Schwenk, H.
+permalink: /publication/
+date: 2015
+paperurl: https://loicbarrault.github.io/papers/blain_hlt2015.pdf
+citation: Blain, F. and  Bougares, F. and  Hazem, A. and  Barrault, L. and  Schwenk, H. "Continuous Adaptation to User Feedback for Statistical Machine Translation" <i>, North American Chapter of the Association for Computational Linguistics – Human Language Technologies (NAACL HLT 2015) 
+---
+[Download paper here](https://loicbarrault.github.io/papers/blain_hlt2015.pdf)
