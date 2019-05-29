@@ -16,7 +16,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 2em 0 0.5em;
+  margin: 1em 0 0.5em;
   line-height: 1.2;
   font-family: $header-font-family;
   font-weight: bold;
@@ -28,31 +28,31 @@ h1 {
 }
 
 h2 {
-  font-size: $type-size-4;
+  font-size: $type-size-6;
 }
 
 h3 {
-  font-size: $type-size-5;
+  font-size: $type-size-7;
 }
 
 h4 {
-  font-size: $type-size-6;
+  font-size: $type-size-8;
 }
 
 h5 {
-  font-size: $type-size-6;
+  font-size: $type-size-8;
 }
 
 h6 {
-  font-size: $type-size-6;
+  font-size: $type-size-8;
 }
 
 small, .small {
-  font-size: $type-size-6;
+  font-size: $type-size-8;
 }
 
 p {
-  margin-bottom: 1.3em;
+  margin-bottom: 1em;
 }
 
 u,
@@ -307,3 +307,75 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   -webkit-transition: $global-transition;
   transition: $global-transition;
 }
+
+/*  SPOILERS for BIBTEX */
+
+
+label[id^="bib-label"] {
+    display: inline-block;
+}
+
+div[class="bibpdf"] > div, label, span {
+    display: inline-block;
+    //vertical-align: middle;
+    font-size: $type-size-6;
+}
+
+input[id^="spoiler"]{
+ display: none;
+}
+
+input[id^="spoiler"] + label {
+  //display: inline-block;
+  width: auto;
+  //margin: 0 auto;
+  padding: 5px 5px;
+  background: #ddd;   
+  color: $text-color;
+  text-align: center;
+  font-size: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all .6s;
+}
+
+div[id^="pdf"] {
+  //display: inline-block;
+  width: auto;
+  //margin: 0 auto;
+  padding: 5px 5px;
+  background: #ddd;   
+  color: $text-color;
+  text-align: center;
+  font-size: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all .6s;
+}
+input[id^="spoiler"]:checked + label {
+  color: #333;
+  background: #ccc;
+}
+
+input[id^="spoiler"] ~ .spoiler {
+  display: block;
+  width: 90%;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  //margin: 10px auto 0; 
+  padding: 10px; 
+  background: #eee;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: all .6s;
+}
+
+input[id^="spoiler"]:checked + label + .spoiler{
+  height: auto;
+  opacity: 1;
+  //padding: 10px;
+}
+
+
+

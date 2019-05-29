@@ -1,8 +1,10 @@
 ---
 title: Issues in Incremental Adaptation of Statistical MT from Human Post-edits
-collection: Cettolo, M.  and  Bertoldi, N.  and  Federico and  M.  and  Servan, C.  and  Barrault, L. and Schwenk, H.
+authors: Cettolo, M.  and  Bertoldi, N.  and  Federico and  M.  and  Servan, C.  and  Barrault, L. and Schwenk, H.
+collection: publications
 permalink: /publication/
 year: 2013
 paperurl: https://loicbarrault.github.io/papers/cettolo_mtsummit2013.pdf
-citation: Cettolo, M.  and  Bertoldi, N.  and  Federico and  M.  and  Servan, C.  and  Barrault, L. and Schwenk, H. Issues in Incremental Adaptation of Statistical MT from Human Post-edits, <i> Proc. of the MT Summit XIV Workshop on Post-editing Technology and Practice (WPTP-2) </i>, 2013
+venue: Proc. of the MT Summit XIV Workshop on Post-editing Technology and Practice (WPTP-2)
+citation: "@inproceedings{cettolo2013mtsummit,  address = {Nice (France)},  author = {Cettolo, M.  and  Bertoldi, N.  and  Federico and  M.  and  Servan, C.  and  Barrault, L. and Schwenk, H.},  booktitle = {Proc. of the MT Summit XIV Workshop on Post-editing Technology and Practice (WPTP-2)},  category = {ACTI},  city = {Nice},  country = {France},  title = {Issues in Incremental Adaptation of Statistical MT from Human Post-edits},  url = {https://loicbarrault.github.io/papers/cettolo_mtsummit2013.pdf},  year = {2013} }  "
 ---

@@ -1,8 +1,10 @@
 ---
 title: Multimodal Grounding for Sequence-to-Sequence Speech Recognition
-collection: Caglayan, Ozan and Sanabria, Ramon and Palaskar, Shruti and Barrault, Loïc and Metze, Florian
+authors: Caglayan, Ozan and Sanabria, Ramon and Palaskar, Shruti and Barrault, Loïc and Metze, Florian
+collection: publications
 permalink: /publication/
 year: 2019
 paperurl: https://loicbarrault.github.io/papers/caglayan_icassp2019.pdf
-citation: Caglayan, Ozan and Sanabria, Ramon and Palaskar, Shruti and Barrault, Loïc and Metze, Florian Multimodal Grounding for Sequence-to-Sequence Speech Recognition, <i> International Conference on Acoustics, Speech and Signal Processing (ICASSP'19) </i>, 2019
+venue: International Conference on Acoustics, Speech and Signal Processing (ICASSP'19)
+citation: "@inproceedings{caglayan2019multimodal,  author = {Caglayan, Ozan and Sanabria, Ramon and Palaskar, Shruti and Barrault, Loïc and Metze, Florian},  booktitle = {International Conference on Acoustics, Speech and Signal Processing (ICASSP'19)},  category = {ACTI},  month = {May},  title = {Multimodal Grounding for Sequence-to-Sequence Speech Recognition},  url = {https://loicbarrault.github.io/papers/caglayan_icassp2019.pdf},  year = {2019} }  "
 ---

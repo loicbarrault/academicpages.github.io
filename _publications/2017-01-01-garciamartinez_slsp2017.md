@@ -1,8 +1,10 @@
 ---
 title: Neural Machine Translation by Generating Multiple Linguistic Factors
-collection: M. García-Martínez, L. Barrault, F. Bougares
+authors: M. García-Martínez, L. Barrault, F. Bougares
+collection: publications
 permalink: /publication/
 year: 2017
 paperurl: https://loicbarrault.github.io/papers/garciamartinez_slsp2017.pdf
-citation: M. García-Martínez, L. Barrault, F. Bougares Neural Machine Translation by Generating Multiple Linguistic Factors, <i> SLSP </i>, 2017
+venue: SLSP
+citation: "@inproceedings{garciamartinez2017slsp,  author = {M. García-Martínez, L. Barrault, F. Bougares},  booktitle = {SLSP},  category = {ACTI},  project = {M2CR},  title = {Neural Machine Translation by Generating Multiple Linguistic Factors},  url = {https://loicbarrault.github.io/papers/garciamartinez_slsp2017.pdf},  year = {2017} }  "
 ---
