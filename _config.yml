@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Loïc Barrault"
 title_separator          : "-"
 name                     : &name "Loïc Barrault"
-description              : &description "Associate Professor at Le Mans University"
+description              : &description "Senior Lecturer at the University of Sheffield"
 url                      : https://loicbarrault.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "loicbarrault.github.io"
@@ -80,8 +80,8 @@ analytics:
 author:
   name             : "Loïc Barrault"
   avatar           : "loicbarrault.png"
-  bio              : "Associate Professor at LIUM, Le Mans University"
-  location         : "Le Mans, France"
+  bio              : "Senior Lecturer at the University of Sheffield"
+  location         : "Sheffield, UK"
   employer         :
   googlescholar    : "https://scholar.google.fr/citations?user=i4IBjw4AAAAJ&hl=en"
   email            :
