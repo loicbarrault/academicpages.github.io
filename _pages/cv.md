@@ -19,8 +19,8 @@ Education
 
 Work experience
 ======
-* 2010 - now: Assistant professor at [Le Mans University](http://www.univ-lemans.fr/) (LMU). 
-  
+* 2019 - now: Senior Lecturer at the [University of Sheffield](http://www.sheffield.ac.uk)
+* 2010 - 2019: Assistant professor at [Le Mans University](http://www.univ-lemans.fr/) (LMU). 
 
 * 2008-2010: Research Assistant
   * Le Mans University
