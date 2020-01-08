@@ -84,7 +84,7 @@ author:
   location         : "Sheffield, UK"
   employer         :
   googlescholar    : "https://scholar.google.fr/citations?user=i4IBjw4AAAAJ&hl=en"
-  email            :
+  email            : "l.barrault@sheffield.ac.uk"
   uri              :
   bitbucket        :
   codepen          :
@@ -266,7 +266,8 @@ timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database
 
 
 # Plugins
-gems:
+#gems:
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
