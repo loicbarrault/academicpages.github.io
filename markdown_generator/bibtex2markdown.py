@@ -27,6 +27,7 @@ for n, entry in enumerate(bib_database.entries):
     print('######### PROCESSING ', entry['url'])
     #filename="{}/{}-{}".format(outdir, now.strftime("%Y-%m-%d"), entry['url'].split('papers/')[1].replace('pdf', 'md'))
     filename="{}/{}-{}-{}".format(outdir, entry['year'], '01-01',  entry['url'].split('papers/')[1].replace('pdf', 'md'))
+    permalink="{}-{}-{}".format(entry['year'], '01-01',  entry['url'].split('papers/')[1].replace('.pdf', ''))
     #print("FILENAME: ", filename)
     #if os.path.exists(filename) and force is False:
         #print('ERROR: ', filename, ' already exists...')
@@ -36,10 +37,10 @@ for n, entry in enumerate(bib_database.entries):
     if not os.path.exists(filename) or force is True:
         with open(filename, 'w') as out: 
             out.write('---\n')
-            out.write('title: ''{}''\n'.format(entry['title']))
+            out.write('title: "{}"\n'.format(entry['title']))
             out.write('authors: {}\n'.format(entry['author']))
             out.write('collection: publications\n')
-            out.write('permalink: /publication/\n')
+            out.write('permalink: /publication/{}\n'.format(permalink))
             #out.write('excerpt: \'', entry['summary'],'\'')
             out.write('year: {}\n'.format(entry['year']))
             
@@ -52,7 +53,7 @@ for n, entry in enumerate(bib_database.entries):
                 print('ERROR: no booktitle nor journal in entry')
                 sys.exit(0)
             #if 'location' in entry:
-            out.write('venue: ''{}''\n'.format(bookorjournal))
+            out.write('venue: "{}"\n'.format(bookorjournal))
             #out.write('citation: {} ''{}'', <i> {} </i>, {}\n'.format(entry['author'], entry['title'], bookorjournal, entry["year"]))
 
             db = bibtexparser.bibdatabase.BibDatabase()
