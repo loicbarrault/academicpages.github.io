@@ -30,18 +30,13 @@
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+	  {{ post.date | default: "1900-01-01" | date: "%d/%m" }} <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
-    
-    {% if post.read_time %}
-      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
-    {% endif %}
 
         {% if post.collection == 'teaching' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
-		<!-- <p class="archive__item-content" itemprop="content" > -->
 			<span> {{ post.authors }} <i>{{ post.venue }}</i> </span>
 			<div class="bibpdf">	
 				<div id="pdf"> <a href="{{ post.paperurl }}">pdf</a></div>
@@ -49,15 +44,12 @@
 				<label id="bib-label{{post.id}}" for="spoiler{{post.id}}">bibtex</label>
 				<div class="spoiler"> {{ post.citation}} </div>	
 			</div>
-			<!-- </p> -->
-        {% elsif post.date %}
-         <p class="page__date"><time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
-        {% endif %}
+		{% endif %}
 
 
-	{% if post.collection != 'publications'%}
+	{% if post.collection != 'publications' and post.collection != 'posts' and post.collection != 'projects' %}
 		{% if post.excerpt and site.read_more != 'enabled' %}
-			<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+		<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p> 
 		{% elsif post.excerpt and site.read_more == 'enabled' %}
 			<p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
 		{% endif %}
