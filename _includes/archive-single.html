@@ -29,8 +29,11 @@
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-      {% else %}
-	  {{ post.date | default: "1900-01-01" | date: "%d/%m" }} <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+	  {% else %}
+		{% if post.collection != 'publications' and post.collection != 'teaching' %}
+			{{ post.date | default: "1900-01-01" | date: "%d/%m" }}
+		{% endif %}
+		<a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
 
@@ -46,7 +49,7 @@
 			</div>
 		{% endif %}
 
-
+	{% if false %}
 	{% if post.collection != 'publications' and post.collection != 'posts' and post.collection != 'projects' %}
 		{% if post.excerpt and site.read_more != 'enabled' %}
 		<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p> 
@@ -61,6 +64,7 @@
 		{% elsif post.paperurl %}
 			<p>Download <a href=" {{ post.paperurl }} "><u>here</u></a></p>
 		{% endif %} 
+	{% endif %} 
 	{% endif %} 
 
   </article>
