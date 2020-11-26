@@ -1,5 +1,5 @@
 ---
-title: "A Vision on (Simultaneous) Multimodal Machine Translation"
+title: "Keynote: A Vision on (Simultaneous) Multimodal Machine Translation"
 collection: news
 type: "Invited talk"
 permalink: /talks/2020-11-20-talk-simmt
