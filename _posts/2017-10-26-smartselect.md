@@ -1,5 +1,5 @@
 ---
-title: "Talk on Multimodal Machine Translation at Snart-Select workshop in Luxembourg"
+title: "Talk on Multimodal Machine Translation at Smart-Select workshop in Luxembourg"
 collection: news
 type: "Invited talk"
 permalink: /talks/2017-10-26-smartselect
